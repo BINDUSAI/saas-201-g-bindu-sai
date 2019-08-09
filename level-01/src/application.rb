@@ -10,6 +10,7 @@ class Application
      ['EEE', 'MECH', 'CSE', 'CIVIL'].each do |dept| 
       self.departments<<Department.new(dept) 
     end
+    
   end
 
   def show
